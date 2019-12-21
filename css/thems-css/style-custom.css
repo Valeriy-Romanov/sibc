@@ -1,0 +1,228 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+body {
+  font-family: "Asap", sans-serif;
+}
+
+.body-bg-custom {
+  background: #ebeeef;
+}
+
+main > .container {
+  padding: 60px 15px 0;
+  background: #fff;
+}
+
+/* .footer {
+  background-color: #f5f5f5;
+} */
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+}
+
+.nav-link-custom {
+  font-size: 11pt;
+}
+
+.nav-link-custom:focus,
+.nav-link-custom:hover {
+  color: #ffc107 !important;
+}
+
+.nav-text-custom {
+  font-size: 8pt;
+}
+.navbar-brand-custom {
+  color: #ffc107 !important;
+}
+
+.dropdown-menu-custom {
+  border: none !important;
+}
+
+.dropdown-item-custom {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.dropdown-item-custom:focus,
+.dropdown-item-custom:hover {
+  color: #ffc107 !important;
+  background-color: #343a40 !important;
+}
+
+.btn-out {
+  padding: 0.225rem 0.45rem !important;
+  font-size: 0.9rem !important;
+}
+
+.th-main-table {
+  font-size: 10pt;
+}
+
+.thead-main-table-custom {
+  background-color: #e9ecef;
+}
+
+.find-form-wrapper {
+  width: 340px;
+  border: 1px solid #d5d6d6;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.on-center{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.last-row{
+  min-height: 100% !important;
+}
+
+.client-update {
+  border: 1px solid #d5d6d6;
+  border-radius: 5px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+/* begin usr modal window */
+.modal1 {
+  /* Не обязательно  block */
+  display: block;
+  width: 600px;
+  max-width: 100%;
+  height: 400px;
+  max-height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  top: 50%;
+  /* Центруем */
+  transform: translate(-50%, -50%);
+  background: white;
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+}
+
+.closed {
+  display: none;
+}
+
+.modal-overlay1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.beforSend {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+}
+
+.modal-guts1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 20px 50px 20px 20px;
+  font-size: 1.1em;
+}
+
+.modal1 .close-button1 {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 20px;
+  border: 0;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.modal1 button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/* finish usr modal window */
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar-brand-custom {
+    margin-right: 0.5rem !important;
+    font-size: 1rem !important;
+  }
+  .nav-link-custom {
+    font-size: 9pt;
+  }
+
+  .nav-text-custom {
+    font-size: 7pt;
+    margin-right: 8px !important;
+  }
+
+  .btn-out {
+    padding: 0.15rem 0.3rem !important;
+    font-size: 0.7rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .btn-out {
+    padding: 0.15rem 0.3rem !important;
+  }
+  .find-form-wrapper {
+    width: 310px;
+    font-size: 0.8rem !important;
+  }
+  .text-custom {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-height: 650px) {
+  .no-m-p {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 570px) {
+  .no-m-p {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 996px){
+  .pl-ret-custom{
+    padding-left: 0px !important;
+  }
+  .pr-ret-custom{
+    padding-right: 9px !important;
+  }
+}
